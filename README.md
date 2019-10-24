@@ -1,2 +1,1 @@
-# Skrypty
-Skrypt testowy z jmeter
+Skrypt testowy jmeter
