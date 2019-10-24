@@ -1,0 +1,28 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1570974400631,508,openLoginPage,200,OK,Grupa wątków 1-1,text,true,,7841,128,1,1,http://beta.demo.testarena.pl/login,508,0,57
+1570974401142,818,loginProccess,200,OK,Grupa wątków 1-1,text,true,,26647,689,1,1,http://beta.demo.testarena.pl/,288,0,0
+1570974401142,288,loginProccess-0,301,Moved Permanently,Grupa wątków 1-1,text,true,,585,427,1,1,http://beta.demo.testarena.pl/login_proccess,288,0,0
+1570974401431,529,loginProccess-1,200,OK,Grupa wątków 1-1,text,true,,26062,262,1,1,http://beta.demo.testarena.pl/,515,0,0
+1570974400629,1326,LOGIN,200,"Number of samples in transaction : 2, number of failing samples : 0",Grupa wątków 1-1,,true,,34488,817,1,1,null,796,6,57
+1570974401963,342,openEnvironmentsPage,200,OK,Grupa wątków 1-1,text,true,,29270,277,1,1,http://beta.demo.testarena.pl/UM/environments,333,0,0
+1570974402307,273,openAddEnvironmentPage,200,OK,Grupa wątków 1-1,text,true,,11228,280,1,1,http://beta.demo.testarena.pl/UM/add_environment,272,0,0
+1570974402582,622,addingEnvironment,200,OK,Grupa wątków 1-1,text,true,,155736,1056,1,1,http://beta.demo.testarena.pl/UM/environments,216,0,0
+1570974402582,216,addingEnvironment-0,301,Moved Permanently,Grupa wątków 1-1,text,true,,485,779,1,1,http://beta.demo.testarena.pl/UM/adding_environment,216,0,0
+1570974402799,405,addingEnvironment-1,200,OK,Grupa wątków 1-1,text,true,,155251,277,1,1,http://beta.demo.testarena.pl/UM/environments,328,0,13
+1570974401962,1237,ADD_ENVIRONMENT,200,"Number of samples in transaction : 3, number of failing samples : 0",Grupa wątków 1-1,,true,,196234,1613,1,1,null,821,7,0
+1570974403209,304,openVersionsPage,200,OK,Grupa wątków 1-1,text,true,,28563,273,1,1,http://beta.demo.testarena.pl/UM/versions,279,0,0
+1570974403515,287,openAddVersionPage,200,OK,Grupa wątków 1-1,text,true,,11179,276,1,1,http://beta.demo.testarena.pl/UM/add_version,286,0,0
+1570974403803,558,addingVersion,200,OK,Grupa wątków 1-1,text,true,,29180,794,1,1,http://beta.demo.testarena.pl/UM/versions,253,0,0
+1570974403803,253,addingVersion-0,301,Moved Permanently,Grupa wątków 1-1,text,true,,481,521,1,1,http://beta.demo.testarena.pl/UM/adding_version,253,0,0
+1570974404058,303,addingVersion-1,200,OK,Grupa wątków 1-1,text,true,,28699,273,1,1,http://beta.demo.testarena.pl/UM/versions,292,0,0
+1570974403206,1149,ADD_VERSION,200,"Number of samples in transaction : 3, number of failing samples : 0",Grupa wątków 1-1,,true,,68922,1343,1,1,null,818,8,0
+1570974404365,388,OpenTaskPage,200,OK,Grupa wątków 1-1,text,true,,58380,274,1,1,http://beta.demo.testarena.pl/Test67/tasks,356,0,0
+1570974404754,320,Environment,200,OK,Grupa wątków 1-1,text,true,,3391,335,1,1,http://beta.demo.testarena.pl/poz/environment_list_ajax?q=,319,0,0
+1570974405077,277,Version,200,OK,Grupa wątków 1-1,text,true,,2778,286,1,1,http://beta.demo.testarena.pl/poz/version_list_ajax?q=,257,0,12
+1570974405356,226,Release,200,OK,Grupa wątków 1-1,text,true,,622,346,1,1,http://beta.demo.testarena.pl/Test67/release_list_for_forward_ajax?q=,226,0,0
+1570974405583,320,ClickAddTask,200,OK,Grupa wątków 1-1,text,true,,16119,277,1,1,http://beta.demo.testarena.pl/Test67/task_add,320,0,0
+1570974405905,303,Priority,200,OK,Grupa wątków 1-1,text,true,,16119,277,1,1,http://beta.demo.testarena.pl/Test67/task_add,294,0,0
+1570974406210,309,Asignee,200,OK,Grupa wątków 1-1,text,true,,16062,274,1,1,http://beta.demo.testarena.pl/poz/task_add,309,0,0
+1570974406521,249,DueDate,200,OK,Grupa wątków 1-1,text,true,,517,334,1,1,http://beta.demo.testarena.pl/poz/project_user_list_ajax,249,0,0
+1570974406772,386,SaveTask,200,OK,Grupa wątków 1-1,text,true,,16792,677,1,1,http://beta.demo.testarena.pl/Test67/task_add_process,370,0,0
+1570974404363,2778,ADD TASK ,200,"Number of samples in transaction : 9, number of failing samples : 0",Grupa wątków 1-1,,true,,130780,3080,1,1,null,2700,18,12
